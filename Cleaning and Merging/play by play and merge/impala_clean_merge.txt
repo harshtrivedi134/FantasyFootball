@@ -1,0 +1,322 @@
+create external table game_pbp (
+game_fumbles_forced float,
+game_fumbles_lost float,
+game_fumbles_notforced float,
+game_fumbles_oob float,
+game_fumbles_rec float,
+game_fumbles_rec_yds float,
+game_fumbles_tot float,
+game_kicking_all_yds float,
+game_kicking_fga float,
+game_kicking_fgb float,
+game_kicking_fgm float,
+game_kicking_fgm_yds float,
+game_kicking_fgmissed float,
+game_kicking_fgmissed_yds float,
+game_kicking_i20 float,
+game_kicking_tot float,
+game_kicking_touchback float,
+game_kicking_xpa float,
+game_kicking_xpb float,
+game_kicking_xpmade float,
+game_kicking_xpmissed float,
+game_kicking_yds float,
+game_kickret_ret float,
+game_kickret_touchback float,
+game_kickret_yds float,
+game_passing_att float,
+game_passing_cmp float,
+game_passing_cmp_air_yds float,
+game_passing_incmp float,
+game_passing_incmp_air_yds float,
+game_passing_int float,
+game_passing_sk float,
+game_passing_sk_yds float,
+game_passing_tds float,
+game_passing_twopta float,
+game_passing_twoptm float,
+game_passing_twoptmissed float,
+game_passing_yds float,
+game_penalty float,
+game_penalty_yds float,
+game_punting_i20 float,
+game_punting_tot float,
+game_punting_touchback float,
+game_punting_yds float,
+game_puntret_downed float,
+game_puntret_fair float,
+game_puntret_oob float,
+game_puntret_tot float,
+game_puntret_touchback float,
+game_puntret_yds float,
+game_receiving_rec float,
+game_receiving_tar float,
+game_receiving_tds float,
+game_receiving_twopta float,
+game_receiving_twoptm float,
+game_receiving_twoptmissed float,
+game_receiving_yac_yds float,
+game_receiving_yds float,
+game_rushing_att float,
+game_rushing_tds float,
+game_rushing_yds float,
+opponent_first_downs float,
+opponent_total_yds float,
+opponent_passing_yds float,
+opponent_rushing_yds float,
+opponent_penalty_cnt float,
+opponent_penalty_yds float,
+opponent_turnovers float,
+opponent_punt_cnt float,
+opponent_punt_yds float,
+opponent_punt_avg float,
+player_birthdate string,
+player_college string,
+player_first_name string,
+player_gsis_name string,
+player_height string,
+player_last_name string,
+player_name string,
+player_number int,
+player_position string,
+player_status string,
+player_team string,
+player_uniform_number int,
+player_weight int,
+player_years_pro int,
+game_away string,
+game_home string,
+game_eid int,
+game_loser string,
+game_winner string,
+game_score_home int,
+game_score_away int,
+game_score_home_q1 int,
+game_score_away_q1 int,
+game_score_home_q2 int,
+game_score_away_q2 int,
+game_score_home_q3 int,
+game_score_away_q3 int,
+game_score_home_q4 int,
+game_score_away_q4 int,
+game_score_home_q5 int,
+game_score_away_q5 int,
+game_week int,
+game_year int,
+game_time string,
+game_wday string,
+game_day int,
+game_month int,
+game_season_type string,
+game_location string,
+game_custom_id string
+) 
+row format delimited fields terminated by ',' escaped by '"' 
+location '/user/cloudera/nfl_game/';
+
+create external table weather (
+year int,
+week string,
+away string,
+home string,
+extended_forecast string,
+wind string,
+temperature string,
+description string,
+away_abr string,
+home_abr string,
+game_custom_id string
+)
+row format delimited fields terminated by ',' escaped by '"' 
+location '/user/cloudera/weather/';
+
+create table qb as select 
+  game_pbp.player_name,
+  game_pbp.game_year,
+  game_pbp.game_week,
+  game_pbp.player_team,
+  game_pbp.game_winner,
+  game_pbp.game_loser,
+  if(game_pbp.game_home = game_pbp.player_team, 1, 0) as home,
+  if(game_pbp.game_home = game_pbp.player_team, game_pbp.game_score_home, game_pbp.game_score_away) as score,
+  if(game_pbp.game_home = game_pbp.player_team, game_pbp.game_score_away, game_pbp.game_score_home) as oppscore,
+  if(game_pbp.player_team = game_pbp.game_winner, 1, 0) as win,
+  if(game_pbp.player_team = game_pbp.game_winner, game_pbp.game_loser, game_pbp.game_winner) as opp,
+  game_pbp.game_passing_tds,
+  game_pbp.game_passing_twoptm,
+  game_pbp.game_passing_yds,
+  game_pbp.game_passing_int,
+  game_pbp.game_fumbles_lost,
+  game_pbp.game_passing_sk,
+  game_pbp.game_passing_att,
+  game_pbp.game_passing_cmp,
+  coalesce(game_pbp.game_passing_tds,0)*6 + coalesce(game_pbp.game_passing_twoptm,0)*2 + coalesce(game_pbp.game_passing_yds,0)*.04 + coalesce(game_pbp.game_passing_int,0)*-1 +  coalesce(game_pbp.game_fumbles_lost,0)*-2 as points,
+  game_pbp.game_custom_id,
+  weather.temperature
+from game_pbp 
+  left join weather on game_pbp.game_custom_id = weather.game_custom_id
+where
+  game_pbp.player_name <> ""
+  and game_pbp.game_week is not null 
+  and game_pbp.player_position = "QB";
+
+create table qb_opp_avg as select avg(points) as opp_points_avg from qb;
+create table qb_opp as select opp as qb_opp, game_year as qb_game_year, avg(points) as points_avg, stddev(points) as points_std,  avg(points) / max(opp_points_avg) as opp_effect from qb join qb_opp_avg group by qb_opp, qb_game_year;
+
+
+create table wr as select 
+  game_pbp.player_name,
+  game_pbp.game_year,
+  game_pbp.game_week,
+  game_pbp.player_team,
+  game_pbp.game_winner,
+  game_pbp.game_loser,
+  if(game_pbp.game_home = game_pbp.player_team, 1, 0) as home,
+  if(game_pbp.game_home = game_pbp.player_team, game_pbp.game_score_home, game_pbp.game_score_away) as score,
+  if(game_pbp.game_home = game_pbp.player_team, game_pbp.game_score_away, game_pbp.game_score_home) as oppscore,
+  if(game_pbp.player_team = game_pbp.game_winner, 1, 0) as win,
+  if(game_pbp.player_team = game_pbp.game_winner, game_pbp.game_loser, game_pbp.game_winner) as opp,
+  game_pbp.game_receiving_tds,
+  game_pbp.game_receiving_rec,
+  game_pbp.game_receiving_yds,
+  game_pbp.game_receiving_tar,
+  game_pbp.game_receiving_yac_yds,
+  game_pbp.game_fumbles_lost,
+  coalesce(game_pbp.game_receiving_tds,0)*6 + coalesce(game_pbp.game_receiving_rec,0)*0.5 + coalesce(game_pbp.game_receiving_yds,0)*.1 +  coalesce(game_pbp.game_fumbles_lost,0)*-2 as points,
+  game_pbp.game_custom_id,
+  weather.temperature
+from game_pbp 
+  left join weather on game_pbp.game_custom_id = weather.game_custom_id
+where
+  game_pbp.player_name <> ""
+  and game_pbp.game_week is not null 
+  and game_pbp.player_position = "WR";
+
+create table wr_opp_avg as select avg(points) as opp_points_avg from wr;
+create table wr_opp as select opp as wr_opp, game_year as wr_game_year, avg(points) as points_avg, stddev(points) as points_std,  avg(points) / max(opp_points_avg) as opp_effect from wr join wr_opp_avg group by wr_opp, wr_game_year;
+
+create table rb as select 
+  game_pbp.player_name,
+  game_pbp.game_year,
+  game_pbp.game_week,
+  game_pbp.player_team,
+  game_pbp.game_winner,
+  game_pbp.game_loser,
+  if(game_pbp.game_home = game_pbp.player_team, 1, 0) as home,
+  if(game_pbp.game_home = game_pbp.player_team, game_pbp.game_score_home, game_pbp.game_score_away) as score,
+  if(game_pbp.game_home = game_pbp.player_team, game_pbp.game_score_away, game_pbp.game_score_home) as oppscore,
+  if(game_pbp.player_team = game_pbp.game_winner, 1, 0) as win,
+  if(game_pbp.player_team = game_pbp.game_winner, game_pbp.game_loser, game_pbp.game_winner) as opp,
+  game_pbp.game_rushing_tds,
+  game_pbp.game_rushing_yds,
+  game_pbp.game_fumbles_lost,
+  coalesce(game_pbp.game_rushing_tds,0)*6 + coalesce(game_pbp.game_rushing_yds,0)*.1 +  coalesce(game_pbp.game_fumbles_lost,0)*-2 as points,
+  game_pbp.game_custom_id,
+  weather.temperature
+from game_pbp 
+  left join weather on game_pbp.game_custom_id = weather.game_custom_id
+where
+  game_pbp.player_name <> ""
+  and game_pbp.game_week is not null 
+  and game_pbp.player_position = "RB";
+
+create table rb_opp_avg as select avg(points) as opp_points_avg from rb;
+create table rb_opp as select opp as rb_opp, game_year as rb_game_year, avg(points) as points_avg, stddev(points) as points_std,  avg(points) / max(opp_points_avg) as opp_effect from rb join rb_opp_avg group by rb_opp, rb_game_year;
+
+create table te as select 
+  game_pbp.player_name,
+  game_pbp.game_year,
+  game_pbp.game_week,
+  game_pbp.player_team,
+  game_pbp.game_winner,
+  game_pbp.game_loser,
+  if(game_pbp.game_home = game_pbp.player_team, 1, 0) as home,
+  if(game_pbp.game_home = game_pbp.player_team, game_pbp.game_score_home, game_pbp.game_score_away) as score,
+  if(game_pbp.game_home = game_pbp.player_team, game_pbp.game_score_away, game_pbp.game_score_home) as oppscore,
+  if(game_pbp.player_team = game_pbp.game_winner, 1, 0) as win,
+  if(game_pbp.player_team = game_pbp.game_winner, game_pbp.game_loser, game_pbp.game_winner) as opp,
+  game_pbp.game_rushing_tds,
+  game_pbp.game_rushing_yds,
+  game_pbp.game_receiving_tds,
+  game_pbp.game_receiving_rec,
+  game_pbp.game_receiving_yds,
+  game_pbp.game_receiving_tar,
+  game_pbp.game_fumbles_lost,
+  coalesce(game_pbp.game_rushing_tds,0)*6 + coalesce(game_pbp.game_rushing_yds,0)*.1 + coalesce(game_pbp.game_receiving_tds,0)*6 + coalesce(game_pbp.game_receiving_rec,0)*0.5 + coalesce(game_pbp.game_receiving_yds,0)*.1 + coalesce(game_pbp.game_fumbles_lost,0)*-2 as points,
+  game_pbp.game_custom_id,
+  weather.temperature
+from game_pbp 
+  left join weather on game_pbp.game_custom_id = weather.game_custom_id
+where
+  game_pbp.player_name <> ""
+  and game_pbp.game_week is not null 
+  and game_pbp.player_position = "TE";
+
+create table te_opp_avg as select avg(points) as opp_points_avg from te;
+create table te_opp as select opp as te_opp, game_year as te_game_year, avg(points) as points_avg, stddev(points) as points_std,  avg(points) / max(opp_points_avg) as opp_effect from te join te_opp_avg group by te_opp, te_game_year;
+
+
+create table k as select 
+  game_pbp.player_name,
+  game_pbp.game_year,
+  game_pbp.game_week,
+  game_pbp.player_team,
+  game_pbp.game_winner,
+  game_pbp.game_loser,
+  if(game_pbp.game_home = game_pbp.player_team, 1, 0) as home,
+  if(game_pbp.game_home = game_pbp.player_team, game_pbp.game_score_home, game_pbp.game_score_away) as score,
+  if(game_pbp.game_home = game_pbp.player_team, game_pbp.game_score_away, game_pbp.game_score_home) as oppscore,
+  if(game_pbp.player_team = game_pbp.game_winner, 1, 0) as win,
+  if(game_pbp.player_team = game_pbp.game_winner, game_pbp.game_loser, game_pbp.game_winner) as opp,
+  game_pbp.game_kicking_fgm,
+  game_pbp.game_kicking_fgm_yds,
+  game_pbp.game_kicking_fgmissed,
+  game_pbp.game_kicking_fgmissed_yds,
+  game_pbp.game_kicking_xpmade,
+  coalesce(game_pbp.game_kicking_fgm,0)*3 + coalesce(game_pbp.game_kicking_xpmade,0)*1 + if(game_pbp.game_kicking_fgm is not null and game_pbp.game_kicking_fgm <> 0, ((coalesce(game_pbp.game_kicking_fgm_yds,0)/coalesce(game_pbp.game_kicking_fgm,0))/30)*1, 0) as points,
+  game_pbp.game_custom_id,
+  weather.temperature
+from game_pbp 
+  left join weather on game_pbp.game_custom_id = weather.game_custom_id
+where
+  game_pbp.player_name <> ""
+  and game_pbp.game_week is not null 
+  and game_pbp.player_position = "K";
+
+create table k_opp_avg as select avg(points) as opp_points_avg from k;
+create table k_opp as select opp as k_opp, game_year as k_game_year, avg(points) as points_avg, stddev(points) as points_std,  avg(points) / max(opp_points_avg) as opp_effect from k join k_opp_avg group by k_opp, k_game_year;
+
+
+create table def as select 
+  game_pbp.player_name,
+  game_pbp.game_year,
+  game_pbp.game_week,
+  game_pbp.player_team,
+  game_pbp.game_winner,
+  game_pbp.game_loser,
+  if(game_pbp.game_home = game_pbp.player_team, 1, 0) as home,
+  if(game_pbp.game_home = game_pbp.player_team, game_pbp.game_score_home, game_pbp.game_score_away) as score,
+  if(game_pbp.game_home = game_pbp.player_team, game_pbp.game_score_away, game_pbp.game_score_home) as oppscore,
+  if(game_pbp.player_team = game_pbp.game_winner, 1, 0) as win,
+  if(game_pbp.player_team = game_pbp.game_winner, game_pbp.game_loser, game_pbp.game_winner) as opp,
+  game_pbp.opponent_first_downs,
+  game_pbp.opponent_total_yds,
+  game_pbp.opponent_passing_yds,
+  game_pbp.opponent_rushing_yds,
+  game_pbp.opponent_turnovers,
+  game_pbp.game_fumbles_lost,
+  if(game_pbp.game_home <> game_pbp.player_team,
+    if(game_pbp.game_score_home >= 35, 1, 0)*-4 + if(game_pbp.game_score_home >= 28 and game_pbp.game_score_home <= 34, 1, 0)*-1 + if(game_pbp.game_score_home >= 14 and game_pbp.game_score_home <= 20, 1, 0)*1 + if(game_pbp.game_score_home >= 7 and game_pbp.game_score_home <= 13, 1, 0)*4 + if(game_pbp.game_score_home >= 1 and game_pbp.game_score_home <= 6, 1, 0)*7 + if(game_pbp.game_score_home = 0, 1, 0)*10 + coalesce(game_pbp.opponent_turnovers,0)*2, 
+    if(game_pbp.game_score_away >= 35, 1, 0)*-4 + if(game_pbp.game_score_away >= 28 and game_pbp.game_score_away <= 34, 1, 0)*-1 + if(game_pbp.game_score_away >= 14 and game_pbp.game_score_away <= 20, 1, 0)*1 + if(game_pbp.game_score_away >= 7 and game_pbp.game_score_away <= 13, 1, 0)*4 + if(game_pbp.game_score_away >= 1 and game_pbp.game_score_away <= 6, 1, 0)*7 + if(game_pbp.game_score_away = 0, 1, 0)*10 + coalesce(game_pbp.opponent_turnovers,0)*2)
+	as points,
+  game_pbp.game_custom_id,
+  weather.temperature
+from game_pbp 
+  left join weather on game_pbp.game_custom_id = weather.game_custom_id
+where
+  game_pbp.player_name <> ""
+  and game_pbp.game_week is not null 
+  and game_pbp.player_position = "DEF";
+  
+create table def_opp_avg as select avg(points) as opp_points_avg from def;
+create table def_opp as select opp as def_opp, game_year as def_game_year, avg(points) as points_avg, stddev(points) as points_std,  avg(points) / max(opp_points_avg) as opp_effect from def join def_opp_avg group by def_opp, def_game_year;

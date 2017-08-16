@@ -1,0 +1,3069 @@
+Field: defense_ast
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     3692
+
+
+Field: defense_ffum
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      198
+
+
+Field: defense_fgblk
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :        9
+
+
+Field: defense_frec
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      130
+
+
+Field: defense_frec_tds
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :       12
+
+
+Field: defense_frec_yds
+Max Length: 2
+Max Numeric Value: 77.0
+Min Numeric Value: 0.0
+Average Value: 4.246154
+Most Common Values: 
+	0                   :       96
+	1                   :        5
+	10                  :        3
+	2                   :        3
+	5                   :        3
+	21                  :        3
+	53                  :        2
+	4                   :        2
+	6                   :        2
+	24                  :        1
+
+
+Field: defense_int
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      166
+
+
+Field: defense_int_tds
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :       13
+
+
+Field: defense_int_yds
+Max Length: 2
+Max Numeric Value: 90.0
+Min Numeric Value: -5.0
+Average Value: 11.343373
+Most Common Values: 
+	0                   :       58
+	4                   :        9
+	1                   :        8
+	9                   :        6
+	6                   :        5
+	12                  :        5
+	25                  :        4
+	21                  :        4
+	3                   :        4
+	5                   :        4
+
+
+Field: defense_pass_def
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      992
+
+
+Field: defense_qbhit
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     1126
+
+
+Field: defense_safe
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :        5
+
+
+Field: defense_sk
+Max Length: 3
+Max Numeric Value: 1.0
+Min Numeric Value: 0.5
+Average Value: 0.896887
+Most Common Values: 
+	1.0                 :      408
+	0.5                 :      106
+
+
+Field: defense_sk_yds
+Max Length: 3
+Max Numeric Value: 0.0
+Min Numeric Value: -20.0
+Average Value: -6.254864
+Most Common Values: 
+	-8                  :       64
+	-9                  :       62
+	-6                  :       59
+	-7                  :       53
+	-5                  :       48
+	-4                  :       41
+	-10                 :       34
+	0                   :       33
+	-3                  :       29
+	-1                  :       26
+
+
+Field: defense_tds
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :       26
+
+
+Field: defense_tkl
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     9669
+
+
+Field: defense_tkl_loss
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      919
+
+
+Field: defense_tkl_loss_yds
+Max Length: 2
+Max Numeric Value: 20.0
+Min Numeric Value: 1.0
+Average Value: 4.306713
+Most Common Values: 
+	1                   :      212
+	2                   :      145
+	3                   :       89
+	4                   :       86
+	6                   :       69
+	5                   :       63
+	8                   :       49
+	9                   :       44
+	7                   :       39
+	10                  :       30
+
+
+Field: defense_tkl_primary
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      679
+
+
+Field: defense_xpblk
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :        8
+
+
+Field: drive_field_end_offset
+Max Length: 3
+Max Numeric Value: 49.0
+Min Numeric Value: -49.0
+Average Value: 14.662102
+Most Common Values: 
+	49                  :     3435
+	46                  :     1954
+	48                  :     1754
+	45                  :     1740
+	47                  :     1652
+	43                  :     1517
+	44                  :     1275
+	35                  :     1255
+	40                  :     1212
+	36                  :     1131
+
+
+Field: drive_field_start_offset
+Max Length: 3
+Max Numeric Value: 49.0
+Min Numeric Value: -49.0
+Average Value: -23.892697
+Most Common Values: 
+	-25                 :    20833
+	-30                 :     4260
+	-28                 :     1616
+	-34                 :     1592
+	-26                 :     1461
+	-33                 :     1346
+	-29                 :     1318
+	-41                 :     1259
+	-31                 :     1195
+	-32                 :     1172
+
+
+Field: drive_first_downs
+Max Length: 1
+Max Numeric Value: 8.0
+Min Numeric Value: 0.0
+Average Value: 2.559385
+Most Common Values: 
+	1                   :    11903
+	2                   :    10970
+	3                   :    10748
+	0                   :    10711
+	4                   :     8514
+	5                   :     7337
+	6                   :     3642
+	7                   :      893
+	8                   :      130
+
+
+Field: drive_num
+Max Length: 2
+Max Numeric Value: 31.0
+Min Numeric Value: 1.0
+Average Value: 11.756693
+Most Common Values: 
+	1                   :     3462
+	6                   :     3029
+	17                  :     3023
+	16                  :     3006
+	3                   :     3003
+	8                   :     2967
+	4                   :     2935
+	7                   :     2898
+	12                  :     2885
+	5                   :     2877
+
+
+Field: drive_penalty_yds
+Max Length: 3
+Max Numeric Value: 66.0
+Min Numeric Value: -35.0
+Average Value: -0.112093
+Most Common Values: 
+	0                   :    35800
+	-5                  :     6315
+	-10                 :     6076
+	5                   :     4135
+	15                  :     1806
+	-15                 :     1728
+	10                  :      881
+	4                   :      636
+	-20                 :      610
+	2                   :      484
+
+
+Field: drive_play_cnt
+Max Length: 2
+Max Numeric Value: 24.0
+Min Numeric Value: 1.0
+Average Value: 9.785668
+Most Common Values: 
+	8                   :     6640
+	5                   :     5700
+	10                  :     5606
+	7                   :     5483
+	9                   :     5245
+	12                  :     4857
+	6                   :     4840
+	11                  :     4719
+	13                  :     3870
+	4                   :     3614
+
+
+Field: drive_pos_time_seconds
+Max Length: 3
+Max Numeric Value: 603.0
+Min Numeric Value: 0.0
+Average Value: 204.543980
+Most Common Values: 
+	217                 :      454
+	183                 :      439
+	143                 :      421
+	286                 :      411
+	280                 :      395
+	116                 :      357
+	131                 :      347
+	102                 :      346
+	216                 :      343
+	137                 :      337
+
+
+Field: drive_result
+Max Length: 12
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	Punt                :    21041
+	Touchdown           :    17426
+	Goal                :    13111
+	Field               :    13111
+	Interception        :     3774
+	Downs               :     3094
+	Fumble              :     2606
+	FG                  :     2202
+	Missed              :     2076
+	End                 :     1532
+
+
+Field: drive_time_end
+Max Length: 5
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	00:00               :     3201
+	00:27               :      358
+	00:14               :      350
+	00:07               :      333
+	06:02               :      276
+	00:28               :      264
+	00:12               :      260
+	00:11               :      245
+	01:52               :      226
+	01:50               :      226
+
+
+Field: drive_time_start
+Max Length: 5
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	06:02               :      287
+	02:46               :      224
+	04:04               :      200
+	14:52               :      200
+	05:45               :      193
+	01:51               :      192
+	02:33               :      187
+	01:50               :      178
+	01:52               :      177
+	03:28               :      177
+
+
+Field: drive_total_yds
+Max Length: 3
+Max Numeric Value: 109.0
+Min Numeric Value: -15.0
+Average Value: 41.834675
+Most Common Values: 
+	75                  :     3703
+	80                  :     1396
+	6                   :     1172
+	5                   :     1088
+	70                  :     1014
+	9                   :     1004
+	7                   :     1001
+	0                   :      979
+	54                  :      978
+	19                  :      951
+
+
+Field: fumbles_forced
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      198
+
+
+Field: fumbles_lost
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      132
+
+
+Field: fumbles_notforced
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :       88
+
+
+Field: fumbles_oob
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :       20
+
+
+Field: fumbles_rec
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      136
+
+
+Field: fumbles_rec_yds
+Max Length: 3
+Max Numeric Value: 42.0
+Min Numeric Value: -48.0
+Average Value: -1.517442
+Most Common Values: 
+	0                   :      128
+	-2                  :        8
+	-4                  :        5
+	-22                 :        2
+	-12                 :        2
+	-15                 :        2
+	-17                 :        2
+	-5                  :        2
+	-7                  :        2
+	-6                  :        2
+
+
+Field: fumbles_tot
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      286
+
+
+Field: game_away
+Max Length: 3
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	CLE                 :     2913
+	BAL                 :     2539
+	ATL                 :     2534
+	SD                  :     2488
+	OAK                 :     2462
+	CHI                 :     2462
+	IND                 :     2461
+	NYG                 :     2436
+	CIN                 :     2434
+	LA                  :     2389
+
+
+Field: game_custom_id
+Max Length: 10
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	1606NOCAR           :      731
+	1606NYGBAL          :      712
+	1607ARISEA          :      694
+	1602NYGNO           :      684
+	1602PITCIN          :      683
+	1606SEAATL          :      670
+	1604BALOAK          :      669
+	1604ATLCAR          :      665
+	1602CARSF           :      662
+	1607LANYG           :      659
+
+
+Field: game_day
+Max Length: 2
+Max Numeric Value: 29.0
+Min Numeric Value: 2.0
+Average Value: 15.282013
+Most Common Values: 
+	18                  :     8820
+	25                  :     8447
+	2                   :     7949
+	16                  :     7799
+	23                  :     7785
+	11                  :     7706
+	9                   :     7031
+	12                  :     1218
+	26                  :      637
+	13                  :      636
+
+
+Field: game_eid
+Max Length: 10
+Max Numeric Value: 2016102700.0
+Min Numeric Value: 2016090800.0
+Average Value: 2016096974.605416
+Most Common Values: 
+	2016101605          :      731
+	2016101606          :      712
+	2016102312          :      694
+	2016091805          :      684
+	2016091806          :      683
+	2016101611          :      670
+	2016100202          :      669
+	2016100201          :      665
+	2016091800          :      662
+	2016100210          :      659
+
+
+Field: game_home
+Max Length: 3
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	ARI                 :     3081
+	TEN                 :     2938
+	PIT                 :     2535
+	HOU                 :     2418
+	WAS                 :     2411
+	NE                  :     2400
+	GB                  :     2360
+	SF                  :     2339
+	DET                 :     2260
+	DEN                 :     2227
+
+
+Field: game_location
+Max Length: 3
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	ARI                 :     3081
+	TEN                 :     2938
+	PIT                 :     2535
+	JAX                 :     2474
+	HOU                 :     2418
+	WAS                 :     2411
+	NE                  :     2400
+	GB                  :     2360
+	SF                  :     2339
+	DET                 :     2260
+
+
+Field: game_loser
+Max Length: 7
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	CLE                 :     4135
+	CHI                 :     3614
+	SF                  :     3511
+	CAR                 :     3044
+	NYJ                 :     2995
+	BAL                 :     2604
+	NO                  :     2525
+	IND                 :     2502
+	SD                  :     2502
+	JAX                 :     2485
+
+
+Field: game_month
+Max Length: 2
+Max Numeric Value: 10.0
+Min Numeric Value: 9.0
+Average Value: 9.544119
+Most Common Values: 
+	10                  :    35285
+	9                   :    29563
+
+
+Field: game_nice_score
+Max Length: 4
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	at                  :    64848
+	(27)                :    10329
+	(17)                :     9909
+	(16)                :     9125
+	(23)                :     6714
+	(24)                :     6101
+	(31)                :     5960
+	(10)                :     5922
+	(34)                :     4796
+	(28)                :     4660
+
+
+Field: game_score_away
+Max Length: 2
+Max Numeric Value: 45.0
+Min Numeric Value: 0.0
+Average Value: 21.284990
+Most Common Values: 
+	27                  :     5517
+	17                  :     5266
+	23                  :     4293
+	16                  :     4261
+	14                  :     3584
+	20                  :     3375
+	33                  :     3133
+	10                  :     2952
+	13                  :     2571
+	24                  :     2509
+
+
+Field: game_score_away_q1
+Max Length: 2
+Max Numeric Value: 16.0
+Min Numeric Value: 0.0
+Average Value: 3.206359
+Most Common Values: 
+	0                   :    30805
+	7                   :    14170
+	3                   :    10128
+	10                  :     4389
+	6                   :     2987
+	2                   :     1218
+	16                  :      612
+	8                   :      539
+
+
+Field: game_score_away_q2
+Max Length: 2
+Max Numeric Value: 21.0
+Min Numeric Value: 0.0
+Average Value: 6.700577
+Most Common Values: 
+	3                   :    15152
+	10                  :    11566
+	0                   :    11487
+	7                   :     9513
+	14                  :     6408
+	6                   :     4666
+	13                  :     3059
+	17                  :     1840
+	21                  :      637
+	9                   :      520
+
+
+Field: game_score_away_q3
+Max Length: 2
+Max Numeric Value: 21.0
+Min Numeric Value: 0.0
+Average Value: 4.010178
+Most Common Values: 
+	0                   :    26404
+	7                   :    15000
+	3                   :    12064
+	10                  :     3563
+	8                   :     2402
+	6                   :     1849
+	14                  :     1778
+	21                  :      670
+	12                  :      576
+	13                  :      542
+
+
+Field: game_score_away_q4
+Max Length: 2
+Max Numeric Value: 23.0
+Min Numeric Value: 0.0
+Average Value: 7.305931
+Most Common Values: 
+	7                   :    13702
+	0                   :    13435
+	3                   :     8731
+	10                  :     6885
+	14                  :     6854
+	6                   :     3485
+	13                  :     2995
+	21                  :     1380
+	11                  :     1304
+	17                  :     1272
+
+
+Field: game_score_away_q5
+Max Length: 1
+Max Numeric Value: 3.0
+Min Numeric Value: 0.0
+Average Value: 0.061945
+Most Common Values: 
+	0                   :    63509
+	3                   :     1339
+
+
+Field: game_score_home
+Max Length: 2
+Max Numeric Value: 48.0
+Min Numeric Value: 0.0
+Average Value: 24.497147
+Most Common Values: 
+	16                  :     4864
+	27                  :     4812
+	31                  :     4782
+	17                  :     4643
+	24                  :     3592
+	34                  :     3569
+	28                  :     3445
+	26                  :     3129
+	10                  :     2970
+	21                  :     2926
+
+
+Field: game_score_home_q1
+Max Length: 2
+Max Numeric Value: 22.0
+Min Numeric Value: 0.0
+Average Value: 5.776585
+Most Common Values: 
+	7                   :    20301
+	0                   :    16323
+	3                   :    11697
+	14                  :     7305
+	10                  :     4836
+	6                   :     2534
+	22                  :      630
+	9                   :      612
+	20                  :      610
+
+
+Field: game_score_home_q2
+Max Length: 2
+Max Numeric Value: 24.0
+Min Numeric Value: 0.0
+Average Value: 7.333595
+Most Common Values: 
+	7                   :    16100
+	10                  :    13453
+	3                   :    12180
+	0                   :     7782
+	14                  :     5172
+	6                   :     4697
+	24                  :     1247
+	17                  :     1206
+	13                  :     1194
+	21                  :      645
+
+
+Field: game_score_home_q3
+Max Length: 2
+Max Numeric Value: 21.0
+Min Numeric Value: 0.0
+Average Value: 4.931255
+Most Common Values: 
+	0                   :    20436
+	7                   :    16244
+	3                   :    12380
+	6                   :     3104
+	14                  :     3045
+	10                  :     2401
+	8                   :     2401
+	9                   :     1783
+	13                  :     1294
+	15                  :      605
+
+
+Field: game_score_home_q4
+Max Length: 2
+Max Numeric Value: 21.0
+Min Numeric Value: 0.0
+Average Value: 6.274457
+Most Common Values: 
+	7                   :    14307
+	0                   :    13509
+	3                   :    12904
+	10                  :     6298
+	6                   :     5492
+	14                  :     4136
+	17                  :     1967
+	13                  :     1808
+	15                  :     1331
+	9                   :      670
+
+
+Field: game_score_home_q5
+Max Length: 1
+Max Numeric Value: 6.0
+Min Numeric Value: 0.0
+Average Value: 0.181255
+Most Common Values: 
+	0                   :    62232
+	3                   :     1314
+	6                   :     1302
+
+
+Field: game_season_type
+Max Length: 3
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	REG                 :    64848
+
+
+Field: game_time
+Max Length: 5
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	1:00                :    33773
+	4:25                :    10130
+	8:30                :     8286
+	4:05                :     5980
+	8:25                :     4153
+	9:30                :     1308
+	7:10                :      626
+	10:20               :      592
+
+
+Field: game_wday
+Max Length: 3
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	Sun                 :    55537
+	Thu                 :     4664
+	Mon                 :     4647
+
+
+Field: game_week
+Max Length: 1
+Max Numeric Value: 8.0
+Min Numeric Value: 1.0
+Average Value: 3.964239
+Most Common Values: 
+	2                   :     9935
+	3                   :     9641
+	1                   :     9435
+	4                   :     9105
+	6                   :     9000
+	7                   :     8951
+	5                   :     8160
+	8                   :      621
+
+
+Field: game_winner
+Max Length: 7
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	NE                  :     3606
+	OAK                 :     3041
+	MIN                 :     3006
+	DAL                 :     2911
+	DEN                 :     2832
+	NYG                 :     2624
+	PIT                 :     2582
+	ATL                 :     2529
+	SEA                 :     2453
+	WAS                 :     2434
+
+
+Field: game_year
+Max Length: 4
+Max Numeric Value: 2016.0
+Min Numeric Value: 2016.0
+Average Value: 2016.000000
+Most Common Values: 
+	2016                :    64848
+
+
+Field: kicking_all_yds
+Max Length: 2
+Max Numeric Value: 90.0
+Min Numeric Value: 58.0
+Average Value: 72.590237
+Most Common Values: 
+	75                  :      257
+	74                  :       88
+	70                  :       77
+	73                  :       73
+	71                  :       50
+	72                  :       36
+	68                  :       30
+	69                  :       30
+	67                  :       15
+	66                  :        9
+
+
+Field: kicking_fga
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      437
+
+
+Field: kicking_fgb
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :        9
+
+
+Field: kicking_fgm
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      367
+
+
+Field: kicking_fgmissed
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :       70
+
+
+Field: kicking_fgmissed_yds
+Max Length: 2
+Max Numeric Value: 61.0
+Min Numeric Value: 22.0
+Average Value: 45.957143
+Most Common Values: 
+	50                  :        8
+	54                  :        5
+	49                  :        4
+	46                  :        4
+	47                  :        4
+	52                  :        4
+	45                  :        3
+	58                  :        3
+	56                  :        3
+	51                  :        3
+
+
+Field: kicking_fgm_yds
+Max Length: 2
+Max Numeric Value: 60.0
+Min Numeric Value: 19.0
+Average Value: 36.365123
+Most Common Values: 
+	33                  :       21
+	22                  :       16
+	46                  :       14
+	29                  :       14
+	43                  :       13
+	28                  :       13
+	36                  :       13
+	49                  :       12
+	25                  :       12
+	44                  :       12
+
+
+Field: kicking_i20
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      132
+
+
+Field: kicking_tot
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     1116
+
+
+Field: kicking_touchback
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      676
+
+
+Field: kicking_xpa
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      475
+
+
+Field: kicking_xpb
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :        8
+
+
+Field: kicking_xpmade
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      455
+
+
+Field: kicking_xpmissed
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :       20
+
+
+Field: kicking_yds
+Max Length: 2
+Max Numeric Value: 82.0
+Min Numeric Value: 3.0
+Average Value: 62.902330
+Most Common Values: 
+	65                  :      697
+	64                  :       39
+	69                  :       32
+	66                  :       31
+	62                  :       30
+	63                  :       29
+	68                  :       29
+	61                  :       25
+	60                  :       24
+	70                  :       24
+
+
+Field: kickret_ret
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      409
+
+
+Field: kickret_yds
+Max Length: 2
+Max Numeric Value: 98.0
+Min Numeric Value: 0.0
+Average Value: 21.498778
+Most Common Values: 
+	19                  :       31
+	17                  :       27
+	18                  :       26
+	20                  :       25
+	21                  :       23
+	22                  :       22
+	25                  :       20
+	23                  :       20
+	24                  :       17
+	15                  :       17
+
+
+Field: passing_att
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     7775
+
+
+Field: passing_cmp
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     4938
+
+
+Field: passing_cmp_air_yds
+Max Length: 3
+Max Numeric Value: 53.0
+Min Numeric Value: -12.0
+Average Value: 6.350618
+Most Common Values: 
+	4                   :      441
+	5                   :      433
+	3                   :      357
+	6                   :      306
+	0                   :      301
+	2                   :      277
+	1                   :      264
+	7                   :      224
+	8                   :      164
+	-3                  :      164
+
+
+Field: passing_incmp
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     2837
+
+
+Field: passing_incmp_air_yds
+Max Length: 3
+Max Numeric Value: 60.0
+Min Numeric Value: -14.0
+Average Value: 11.362835
+Most Common Values: 
+	0                   :      216
+	4                   :      159
+	6                   :      153
+	5                   :      151
+	3                   :      148
+	10                  :      121
+	11                  :      110
+	2                   :      109
+	9                   :      105
+	7                   :      102
+
+
+Field: passing_int
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      166
+
+
+Field: passing_sk
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      465
+
+
+Field: passing_sk_yds
+Max Length: 3
+Max Numeric Value: 0.0
+Min Numeric Value: -20.0
+Average Value: -6.243011
+Most Common Values: 
+	-8                  :       57
+	-6                  :       55
+	-9                  :       53
+	-7                  :       47
+	-5                  :       44
+	-4                  :       40
+	0                   :       34
+	-10                 :       33
+	-3                  :       23
+	-1                  :       21
+
+
+Field: passing_twoptm
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :       14
+
+
+Field: passing_twoptmissed
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :       11
+
+
+Field: passing_yds
+Max Length: 3
+Max Numeric Value: 98.0
+Min Numeric Value: -16.0
+Average Value: 11.415958
+Most Common Values: 
+	6                   :      375
+	5                   :      374
+	7                   :      344
+	9                   :      341
+	8                   :      308
+	4                   :      287
+	11                  :      258
+	3                   :      222
+	10                  :      213
+	13                  :      196
+
+
+Field: penalty
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     1457
+
+
+Field: penalty_yds
+Max Length: 2
+Max Numeric Value: 66.0
+Min Numeric Value: 0.0
+Average Value: 8.778998
+Most Common Values: 
+	5                   :      616
+	10                  :      383
+	15                  :      204
+	4                   :       27
+	9                   :       23
+	8                   :       20
+	6                   :       17
+	7                   :       16
+	0                   :       15
+	2                   :       15
+
+
+Field: play_defense_ast
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     9415
+
+
+Field: play_defense_ffum
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     1685
+
+
+Field: play_defense_fgblk
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :       23
+
+
+Field: play_defense_frec
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     1053
+
+
+Field: play_defense_frec_tds
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :       85
+
+
+Field: play_defense_frec_yds
+Max Length: 2
+Max Numeric Value: 77.0
+Min Numeric Value: 0.0
+Average Value: 4.049383
+Most Common Values: 
+	0                   :      780
+	1                   :       46
+	21                  :       30
+	10                  :       29
+	5                   :       29
+	2                   :       25
+	4                   :       16
+	53                  :       12
+	6                   :       12
+	36                  :       10
+
+
+Field: play_defense_int
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     1015
+
+
+Field: play_defense_int_tds
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :       72
+
+
+Field: play_defense_int_yds
+Max Length: 2
+Max Numeric Value: 90.0
+Min Numeric Value: -5.0
+Average Value: 11.260099
+Most Common Values: 
+	0                   :      331
+	4                   :       59
+	1                   :       51
+	9                   :       44
+	12                  :       34
+	6                   :       31
+	14                  :       30
+	21                  :       28
+	5                   :       26
+	3                   :       24
+
+
+Field: play_defense_pass_def
+Max Length: 1
+Max Numeric Value: 2.0
+Min Numeric Value: 1.0
+Average Value: 1.001874
+Most Common Values: 
+	1                   :     4261
+	2                   :        8
+
+
+Field: play_defense_qbhit
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     6244
+
+
+Field: play_defense_safe
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :       44
+
+
+Field: play_defense_sk
+Max Length: 3
+Max Numeric Value: 1.0
+Min Numeric Value: 0.5
+Average Value: 0.936634
+Most Common Values: 
+	1.0                 :     2584
+	0.5                 :      375
+
+
+Field: play_defense_sk_yds
+Max Length: 3
+Max Numeric Value: 0.0
+Min Numeric Value: -20.0
+Average Value: -6.423116
+Most Common Values: 
+	-8                  :      366
+	-9                  :      347
+	-6                  :      339
+	-7                  :      315
+	-5                  :      290
+	-4                  :      263
+	-10                 :      203
+	0                   :      157
+	-3                  :      140
+	-1                  :      138
+
+
+Field: play_defense_tds
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      160
+
+
+Field: play_defense_tkl
+Max Length: 1
+Max Numeric Value: 2.0
+Min Numeric Value: 1.0
+Average Value: 1.004041
+Most Common Values: 
+	1                   :    41160
+	2                   :      167
+
+
+Field: play_defense_tkl_loss
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     4991
+
+
+Field: play_defense_tkl_loss_yds
+Max Length: 2
+Max Numeric Value: 20.0
+Min Numeric Value: 1.0
+Average Value: 4.684054
+Most Common Values: 
+	1                   :     1029
+	2                   :      719
+	4                   :      474
+	3                   :      447
+	6                   :      396
+	5                   :      381
+	8                   :      296
+	9                   :      275
+	7                   :      247
+	10                  :      185
+
+
+Field: play_defense_tkl_primary
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     2947
+
+
+Field: play_defense_xpblk
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :       16
+
+
+Field: play_desc
+Max Length: 24
+Max Numeric Value: 162.0
+Min Numeric Value: -16.0
+Average Value: 21.555777
+Most Common Values: 
+	to                  :    87719
+	for                 :    54559
+	yards               :    49952
+	pass                :    41669
+	short               :    34575
+	(Shotgun)           :    33463
+	right               :    21042
+	left                :    19452
+	at                  :    17686
+	middle              :    13873
+
+
+Field: play_down
+Max Length: 1
+Max Numeric Value: 4.0
+Min Numeric Value: 0.0
+Average Value: 1.851376
+Most Common Values: 
+	1                   :    24286
+	2                   :    19543
+	3                   :    13554
+	4                   :     4006
+	0                   :     3459
+
+
+Field: play_drive
+Max Length: 12
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	(Start:             :    64848
+	End:                :    64848
+	Q4                  :    35815
+	Q2                  :    34770
+	Q1                  :    29416
+	Q3                  :    29027
+	Punt                :    21041
+	Touchdown           :    17426
+	Goal                :    13111
+	Field               :    13111
+
+
+Field: player_birthdate
+Max Length: 10
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	9/12/1989           :      663
+	1/16/1985           :      659
+	11/22/1990          :      572
+	1/15/1979           :      568
+	1/3/1981            :      564
+	8/19/1988           :      563
+	3/28/1991           :      562
+	10/30/1993          :      557
+	10/29/1987          :      546
+	2/7/1988            :      528
+
+
+Field: player_college
+Max Length: 21
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	State               :    14234
+	Florida             :     4611
+	Texas               :     3623
+	Michigan            :     2541
+	Carolina            :     2474
+	North               :     2274
+	Miami               :     2244
+	Georgia             :     2175
+	Oregon              :     1853
+	USC                 :     1765
+
+
+Field: player_first_name
+Max Length: 14
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	Carson              :      933
+	Andrew              :      820
+	Chris               :      797
+	Derek               :      732
+	Brandon             :      687
+	Blake               :      680
+	Aaron               :      678
+	Jordan              :      676
+	Brian               :      645
+	Mike                :      643
+
+
+Field: player_full_name
+Max Length: 17
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	Smith               :     1079
+	Jones               :     1018
+	Carson              :      933
+	Johnson             :      849
+	Williams            :      823
+	Andrew              :      820
+	Brown               :      784
+	Derek               :      732
+	Blake               :      698
+	Brandon             :      687
+
+
+Field: player_gsis_id
+Max Length: 10
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	00-0026158          :      659
+	00-0020531          :      568
+	00-0022803          :      564
+	00-0029604          :      563
+	00-0026143          :      529
+	00-0026498          :      528
+	00-0022942          :      526
+	00-0023459          :      519
+	00-0023682          :      516
+	00-0021429          :      514
+
+
+Field: playerid
+Max Length: 10
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	00-0026158          :      659
+	00-0020531          :      568
+	00-0022803          :      564
+	00-0029604          :      563
+	00-0026143          :      529
+	00-0026498          :      528
+	00-0022942          :      526
+	00-0023459          :      519
+	00-0023682          :      516
+	00-0021429          :      514
+
+
+Field: player_last_name
+Max Length: 17
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	Jones               :     1018
+	Williams            :      823
+	Brown               :      784
+	Bortles             :      630
+	Luck                :      619
+	Carr                :      591
+	Brees               :      568
+	Mariota             :      557
+	Taylor              :      555
+	Dalton              :      546
+
+
+Field: player_name
+Max Length: 19
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	Smith               :     1079
+	Jones               :     1018
+	Carson              :      933
+	Johnson             :      849
+	Williams            :      823
+	Andrew              :      820
+	Brown               :      784
+	Brandon             :      687
+	Aaron               :      678
+	Eli                 :      659
+
+
+Field: player_number
+Max Length: 2
+Max Numeric Value: 99.0
+Min Numeric Value: 0.0
+Average Value: 33.221616
+Most Common Values: 
+	11                  :     2895
+	17                  :     2663
+	5                   :     2284
+	3                   :     2214
+	12                  :     2081
+	2                   :     2022
+	10                  :     1696
+	9                   :     1634
+	13                  :     1627
+	14                  :     1613
+
+
+Field: player_player_id
+Max Length: 10
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	00-0026158          :     1318
+	00-0020531          :     1136
+	00-0022803          :     1128
+	00-0029604          :     1126
+	00-0026143          :     1058
+	00-0026498          :     1056
+	00-0022942          :     1052
+	00-0023459          :     1038
+	00-0023682          :     1032
+	00-0021429          :     1028
+
+
+Field: player_position
+Max Length: 3
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	QB                  :    16872
+	WR                  :    11683
+	RB                  :     8446
+	TE                  :     3706
+	CB                  :     2979
+	OLB                 :     2780
+	DE                  :     2687
+	K                   :     2483
+	DT                  :     1705
+	LB                  :     1682
+
+
+Field: player_profile_id
+Max Length: 7
+Max Numeric Value: 2557531.0
+Min Numeric Value: 210.0
+Average Value: 2187641.477219
+Most Common Values: 
+	2533436             :      572
+	2504775             :      568
+	2505996             :      564
+	2495143             :      546
+	2506121             :      526
+	2506581             :      516
+	2505245             :      514
+	2506109             :      479
+	2532956             :      474
+	2532975             :      459
+
+
+Field: player_profile_url
+Max Length: 64
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	http://www.nfl.com/player/blakebortles/2543477/profile:      630
+	http://www.nfl.com/player/andrewluck/2533031/profile:      619
+	http://www.nfl.com/player/brockosweiler/2533436/profile:      572
+	http://www.nfl.com/player/drewbrees/2504775/profile:      568
+	http://www.nfl.com/player/elimanning/2505996/profile:      564
+	http://www.nfl.com/player/andydalton/2495143/profile:      546
+	http://www.nfl.com/player/jameiswinston/2552033/profile:      528
+	http://www.nfl.com/player/aaronrodgers/2506363/profile:      519
+	http://www.nfl.com/player/casekeenum/2532888/profile:      517
+	http://www.nfl.com/player/carsonpalmer/2505245/profile:      514
+
+
+Field: player_status
+Max Length: 3
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	ACT                 :    63264
+	SUS                 :      609
+	EXE                 :       64
+	PUP                 :       11
+	RES                 :        9
+
+
+Field: player_team
+Max Length: 3
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	BAL                 :     2323
+	TEN                 :     2234
+	JAC                 :     2197
+	WAS                 :     2176
+	ARI                 :     2171
+	HOU                 :     2151
+	NYG                 :     2145
+	IND                 :     2136
+	ATL                 :     2124
+	OAK                 :     2121
+
+
+Field: player_uniform_number
+Max Length: 2
+Max Numeric Value: 99.0
+Min Numeric Value: 0.0
+Average Value: 33.221616
+Most Common Values: 
+	11                  :     2895
+	17                  :     2663
+	5                   :     2284
+	3                   :     2214
+	12                  :     2081
+	2                   :     2022
+	10                  :     1696
+	9                   :     1634
+	13                  :     1627
+	14                  :     1613
+
+
+Field: player_weight
+Max Length: 3
+Max Numeric Value: 359.0
+Min Numeric Value: 160.0
+Average Value: 225.680875
+Most Common Values: 
+	215                 :     3533
+	205                 :     2410
+	225                 :     2407
+	210                 :     2201
+	240                 :     2134
+	220                 :     2129
+	218                 :     1939
+	217                 :     1779
+	235                 :     1752
+	245                 :     1664
+
+
+Field: player_years_pro
+Max Length: 2
+Max Numeric Value: 21.0
+Min Numeric Value: 0.0
+Average Value: 5.417329
+Most Common Values: 
+	2                   :     8850
+	5                   :     8623
+	3                   :     8438
+	4                   :     6319
+	0                   :     6044
+	6                   :     5940
+	7                   :     3962
+	8                   :     3462
+	9                   :     3363
+	12                  :     2237
+
+
+Field: play_first_down
+Max Length: 1
+Max Numeric Value: 3.0
+Min Numeric Value: 1.0
+Average Value: 1.015424
+Most Common Values: 
+	1                   :    19159
+	2                   :      282
+	3                   :        9
+
+
+Field: play_fourth_down_att
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      814
+
+
+Field: play_fourth_down_conv
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      407
+
+
+Field: play_fourth_down_failed
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      407
+
+
+Field: play_fumbles_forced
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     1685
+
+
+Field: play_fumbles_lost
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     1069
+
+
+Field: play_fumbles_notforced
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      540
+
+
+Field: play_fumbles_oob
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      136
+
+
+Field: play_fumbles_rec
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     1036
+
+
+Field: play_fumbles_rec_yds
+Max Length: 3
+Max Numeric Value: 42.0
+Min Numeric Value: -48.0
+Average Value: -1.091827
+Most Common Values: 
+	0                   :      832
+	-2                  :       59
+	-4                  :       42
+	-5                  :       14
+	-6                  :       13
+	-22                 :       11
+	-15                 :       11
+	10                  :       11
+	7                   :       10
+	1                   :        9
+
+
+Field: play_fumbles_tot
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     2225
+
+
+Field: play_home
+Max Length: 5
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	True                :    32571
+	False               :    32277
+
+
+Field: play_kicking_all_yds
+Max Length: 2
+Max Numeric Value: 90.0
+Min Numeric Value: 58.0
+Average Value: 72.587629
+Most Common Values: 
+	75                  :      516
+	74                  :      176
+	70                  :      156
+	73                  :      147
+	71                  :      100
+	72                  :       72
+	69                  :       61
+	68                  :       60
+	67                  :       30
+	66                  :       18
+
+
+Field: play_kicking_fga
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      453
+
+
+Field: play_kicking_fgb
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :       23
+
+
+Field: play_kicking_fgm
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      369
+
+
+Field: play_kicking_fgmissed
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :       84
+
+
+Field: play_kicking_fgmissed_yds
+Max Length: 2
+Max Numeric Value: 61.0
+Min Numeric Value: 22.0
+Average Value: 44.726190
+Most Common Values: 
+	50                  :        8
+	52                  :        7
+	39                  :        5
+	54                  :        5
+	49                  :        4
+	46                  :        4
+	47                  :        4
+	38                  :        4
+	51                  :        4
+	24                  :        3
+
+
+Field: play_kicking_fgm_yds
+Max Length: 2
+Max Numeric Value: 60.0
+Min Numeric Value: 19.0
+Average Value: 36.422764
+Most Common Values: 
+	33                  :       21
+	22                  :       16
+	46                  :       14
+	29                  :       14
+	43                  :       13
+	28                  :       13
+	36                  :       13
+	49                  :       12
+	25                  :       12
+	44                  :       12
+
+
+Field: play_kicking_i20
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      565
+
+
+Field: play_kicking_tot
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     2886
+
+
+Field: play_kicking_touchback
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     1358
+
+
+Field: play_kicking_xpmade
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      470
+
+
+Field: play_kicking_xpmissed
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :       28
+
+
+Field: play_kicking_yds
+Max Length: 2
+Max Numeric Value: 82.0
+Min Numeric Value: 3.0
+Average Value: 63.236660
+Most Common Values: 
+	65                  :     1457
+	64                  :      135
+	69                  :      117
+	66                  :      115
+	68                  :      112
+	62                  :      108
+	63                  :      108
+	61                  :       89
+	70                  :       84
+	67                  :       79
+
+
+Field: play_kickret_ret
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     1479
+
+
+Field: play_kickret_touchback
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     1358
+
+
+Field: play_kickret_yds
+Max Length: 2
+Max Numeric Value: 98.0
+Min Numeric Value: 0.0
+Average Value: 20.663286
+Most Common Values: 
+	19                  :      118
+	18                  :      100
+	17                  :       95
+	20                  :       90
+	22                  :       82
+	21                  :       80
+	25                  :       71
+	23                  :       69
+	24                  :       62
+	15                  :       62
+
+
+Field: play_note
+Max Length: 7
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	KICKOFF             :     2808
+	PUNT                :     2491
+	FUMBLE              :     2083
+	TD                  :     2022
+	PENALTY             :     1978
+	INT                 :      943
+	XP                  :      470
+	FG                  :      369
+	TIMEOUT             :      142
+	FGM                 :       61
+
+
+Field: play_passing_att
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :    40594
+
+
+Field: play_passing_cmp
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :    30499
+
+
+Field: play_passing_cmp_air_yds
+Max Length: 3
+Max Numeric Value: 53.0
+Min Numeric Value: -12.0
+Average Value: 6.180828
+Most Common Values: 
+	4                   :     2728
+	5                   :     2677
+	3                   :     2228
+	6                   :     1894
+	0                   :     1868
+	2                   :     1704
+	1                   :     1611
+	7                   :     1357
+	-3                  :     1046
+	-2                  :     1026
+
+
+Field: play_passing_first_down
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :    16228
+
+
+Field: play_passing_incmp
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :    10095
+
+
+Field: play_passing_incmp_air_yds
+Max Length: 3
+Max Numeric Value: 60.0
+Min Numeric Value: -14.0
+Average Value: 11.536907
+Most Common Values: 
+	0                   :      726
+	4                   :      559
+	6                   :      555
+	5                   :      510
+	3                   :      507
+	10                  :      442
+	9                   :      388
+	11                  :      388
+	2                   :      370
+	7                   :      366
+
+
+Field: play_passing_int
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     1015
+
+
+Field: play_passing_sk
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     2979
+
+
+Field: play_passing_sk_yds
+Max Length: 3
+Max Numeric Value: 0.0
+Min Numeric Value: -20.0
+Average Value: -6.405170
+Most Common Values: 
+	-8                  :      366
+	-9                  :      347
+	-6                  :      339
+	-7                  :      315
+	-5                  :      290
+	-4                  :      263
+	-10                 :      209
+	0                   :      166
+	-3                  :      145
+	-1                  :      138
+
+
+Field: play_passing_tds
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     1647
+
+
+Field: play_passing_twopta
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :       51
+
+
+Field: play_passing_twoptm
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :       30
+
+
+Field: play_passing_twoptmissed
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :       21
+
+
+Field: play_passing_yds
+Max Length: 3
+Max Numeric Value: 98.0
+Min Numeric Value: -16.0
+Average Value: 11.238664
+Most Common Values: 
+	6                   :     2329
+	5                   :     2279
+	9                   :     2120
+	7                   :     2098
+	8                   :     1909
+	4                   :     1742
+	11                  :     1592
+	3                   :     1374
+	10                  :     1299
+	13                  :     1210
+
+
+Field: play_penalty
+Max Length: 1
+Max Numeric Value: 2.0
+Min Numeric Value: 1.0
+Average Value: 1.005415
+Most Common Values: 
+	1                   :     5510
+	2                   :       30
+
+
+Field: play_penalty_first_down
+Max Length: 1
+Max Numeric Value: 2.0
+Min Numeric Value: 1.0
+Average Value: 1.015873
+Most Common Values: 
+	1                   :      806
+	2                   :       13
+
+
+Field: play_penalty_yds
+Max Length: 2
+Max Numeric Value: 66.0
+Min Numeric Value: 0.0
+Average Value: 10.006498
+Most Common Values: 
+	15                  :      783
+	5                   :      752
+	10                  :      696
+	9                   :       96
+	8                   :       67
+	6                   :       46
+	4                   :       40
+	0                   :       38
+	14                  :       38
+	7                   :       35
+
+
+Field: play_players
+Max Length: 21
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	B.Bortles]          :     1244
+	M.Stafford]         :     1015
+	A.Luck,             :      773
+	B.Osweiler,         :      750
+	E.Manning,          :      745
+	R.Tannehill]        :      728
+	T.Taylor]           :      691
+	A.Rodgers,          :      682
+	J.Winston,          :      629
+	D.Prescott]         :      617
+
+
+Field: play_playid
+Max Length: 4
+Max Numeric Value: 5371.0
+Min Numeric Value: 35.0
+Average Value: 2119.380228
+Most Common Values: 
+	100                 :       71
+	1258                :       49
+	1288                :       46
+	103                 :       44
+	1129                :       38
+	1241                :       38
+	1507                :       38
+	1272                :       37
+	143                 :       36
+	1093                :       36
+
+
+Field: play_punting_i20
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     1150
+
+
+Field: play_punting_tot
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     2691
+
+
+Field: play_punting_touchback
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :       78
+
+
+Field: play_punting_yds
+Max Length: 2
+Max Numeric Value: 78.0
+Min Numeric Value: 3.0
+Average Value: 46.488294
+Most Common Values: 
+	48                  :      161
+	47                  :      137
+	44                  :      136
+	46                  :      123
+	45                  :      118
+	52                  :      116
+	49                  :      111
+	43                  :      108
+	42                  :      102
+	50                  :      100
+
+
+Field: play_puntret_downed
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      242
+
+
+Field: play_puntret_fair
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      727
+
+
+Field: play_puntret_oob
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      141
+
+
+Field: play_puntret_tot
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     1503
+
+
+Field: play_puntret_touchback
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :       78
+
+
+Field: play_puntret_yds
+Max Length: 2
+Max Numeric Value: 85.0
+Min Numeric Value: -7.0
+Average Value: 8.580173
+Most Common Values: 
+	0                   :      268
+	6                   :       98
+	7                   :       95
+	8                   :       93
+	4                   :       81
+	9                   :       79
+	1                   :       77
+	12                  :       70
+	3                   :       60
+	10                  :       60
+
+
+Field: play_receiving_rec
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :    30499
+
+
+Field: play_receiving_tar
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :    40300
+
+
+Field: play_receiving_tds
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     1647
+
+
+Field: play_receiving_twopta
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :       50
+
+
+Field: play_receiving_twoptm
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :       30
+
+
+Field: play_receiving_twoptmissed
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :       20
+
+
+Field: play_receiving_yac_yds
+Max Length: 3
+Max Numeric Value: 73.0
+Min Numeric Value: -14.0
+Average Value: 5.062352
+Most Common Values: 
+	0                   :     6957
+	1                   :     3843
+	2                   :     3007
+	3                   :     2393
+	4                   :     1928
+	5                   :     1853
+	6                   :     1585
+	7                   :     1429
+	8                   :     1132
+	9                   :      968
+
+
+Field: play_receiving_yds
+Max Length: 3
+Max Numeric Value: 98.0
+Min Numeric Value: -16.0
+Average Value: 11.234860
+Most Common Values: 
+	6                   :     2329
+	5                   :     2307
+	9                   :     2120
+	7                   :     2098
+	8                   :     1909
+	4                   :     1742
+	11                  :     1592
+	3                   :     1374
+	10                  :     1286
+	13                  :     1210
+
+
+Field: play_rushing_att
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :    13594
+
+
+Field: play_rushing_first_down
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     2690
+
+
+Field: play_rushing_loss
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     2111
+
+
+Field: play_rushing_loss_yds
+Max Length: 3
+Max Numeric Value: -1.0
+Min Numeric Value: -10.0
+Average Value: -2.270488
+Most Common Values: 
+	-1                  :      882
+	-2                  :      548
+	-3                  :      295
+	-4                  :      206
+	-6                  :       71
+	-5                  :       68
+	-8                  :       25
+	-9                  :        8
+	-10                 :        4
+	-7                  :        4
+
+
+Field: play_rushing_tds
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      190
+
+
+Field: play_rushing_yds
+Max Length: 3
+Max Numeric Value: 85.0
+Min Numeric Value: -10.0
+Average Value: 3.635648
+Most Common Values: 
+	2                   :     1700
+	1                   :     1503
+	3                   :     1421
+	0                   :     1270
+	4                   :     1226
+	-1                  :     1019
+	5                   :      853
+	6                   :      742
+	-2                  :      563
+	7                   :      503
+
+
+Field: play_team
+Max Length: 3
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	BAL                 :     2334
+	ARI                 :     2272
+	IND                 :     2255
+	TEN                 :     2245
+	HOU                 :     2191
+	WAS                 :     2152
+	PIT                 :     2135
+	CIN                 :     2123
+	NYG                 :     2117
+	SD                  :     2117
+
+
+Field: play_third_down_att
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :    13242
+
+
+Field: play_third_down_conv
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     5673
+
+
+Field: play_third_down_failed
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     7569
+
+
+Field: play_time_clocktime
+Max Length: 5
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	02:00               :      696
+	00:40               :      171
+	00:26               :      159
+	01:51               :      155
+	01:54               :      152
+	00:57               :      145
+	00:49               :      141
+	00:21               :      137
+	01:55               :      136
+	00:47               :      136
+
+
+Field: play_timeout
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      153
+
+
+Field: play_time
+Max Length: 5
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	Q2                  :    16638
+	Q1                  :    14554
+	02:00               :      696
+	00:26               :      159
+	01:51               :      155
+	00:40               :      155
+	01:54               :      152
+	00:49               :      141
+	00:21               :      137
+	00:47               :      136
+
+
+Field: play_time_quarter
+Max Length: 1
+Max Numeric Value: 6.0
+Min Numeric Value: 1.0
+Average Value: 3.069563
+Most Common Values: 
+	5                   :    17735
+	2                   :    17539
+	4                   :    14686
+	1                   :    14554
+	6                   :      334
+
+
+Field: play_touchdown
+Max Length: 5
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	False               :    62758
+	True                :     2090
+
+
+Field: play_yardline
+Max Length: 3
+Max Numeric Value: 49.0
+Min Numeric Value: -49.0
+Average Value: -3.521620
+Most Common Values: 
+	-25                 :     8088
+	-15                 :     7390
+	-30                 :     2616
+	-14                 :     2216
+	-20                 :     2210
+	-24                 :     2196
+	-11                 :     2186
+	-13                 :     2142
+	-12                 :     2132
+	-19                 :     2048
+
+
+Field: play_yards_togo
+Max Length: 2
+Max Numeric Value: 43.0
+Min Numeric Value: 0.0
+Average Value: 8.378793
+Most Common Values: 
+	10                  :    28098
+	0                   :     3459
+	5                   :     3228
+	7                   :     3010
+	4                   :     2952
+	6                   :     2893
+	8                   :     2879
+	9                   :     2813
+	1                   :     2490
+	3                   :     2267
+
+
+Field: punting_i20
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      374
+
+
+Field: punting_tot
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      979
+
+
+Field: punting_touchback
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :       74
+
+
+Field: punting_yds
+Max Length: 2
+Max Numeric Value: 78.0
+Min Numeric Value: 3.0
+Average Value: 45.839632
+Most Common Values: 
+	48                  :       56
+	46                  :       45
+	47                  :       45
+	44                  :       43
+	49                  :       41
+	45                  :       41
+	43                  :       40
+	52                  :       38
+	50                  :       38
+	42                  :       35
+
+
+Field: puntret_fair
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      270
+
+
+Field: puntret_tot
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      411
+
+
+Field: puntret_yds
+Max Length: 2
+Max Numeric Value: 85.0
+Min Numeric Value: -7.0
+Average Value: 9.648910
+Most Common Values: 
+	0                   :       60
+	6                   :       28
+	8                   :       28
+	7                   :       26
+	4                   :       23
+	9                   :       22
+	1                   :       20
+	12                  :       19
+	10                  :       16
+	13                  :       16
+
+
+Field: receiving_rec
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     4938
+
+
+Field: receiving_tar
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     7654
+
+
+Field: receiving_tds
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      323
+
+
+Field: receiving_twopta
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :       24
+
+
+Field: receiving_twoptm
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :       14
+
+
+Field: receiving_twoptmissed
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :       10
+
+
+Field: receiving_yac_yds
+Max Length: 3
+Max Numeric Value: 73.0
+Min Numeric Value: -14.0
+Average Value: 5.063158
+Most Common Values: 
+	0                   :     1164
+	1                   :      618
+	2                   :      484
+	3                   :      386
+	4                   :      309
+	5                   :      296
+	6                   :      251
+	7                   :      228
+	8                   :      180
+	9                   :      154
+
+
+Field: receiving_yds
+Max Length: 3
+Max Numeric Value: 98.0
+Min Numeric Value: -16.0
+Average Value: 11.406718
+Most Common Values: 
+	5                   :      377
+	6                   :      375
+	7                   :      344
+	9                   :      341
+	8                   :      308
+	4                   :      287
+	11                  :      258
+	3                   :      222
+	10                  :      213
+	13                  :      196
+
+
+Field: rushing_att
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :     5591
+
+
+Field: rushing_tds
+Max Length: 1
+Max Numeric Value: 1.0
+Min Numeric Value: 1.0
+Average Value: 1.000000
+Most Common Values: 
+	1                   :      185
+
+
+Field: rushing_yds
+Max Length: 3
+Max Numeric Value: 85.0
+Min Numeric Value: -10.0
+Average Value: 4.173493
+Most Common Values: 
+	2                   :      740
+	1                   :      668
+	3                   :      610
+	4                   :      528
+	0                   :      475
+	5                   :      375
+	-1                  :      362
+	6                   :      324
+	7                   :      220
+	8                   :      175
+
+
+Field: team
+Max Length: 3
+Max Numeric Value: None
+Min Numeric Value: None
+Average Value: 0.000000
+Most Common Values: 
+	BAL                 :     2307
+	ARI                 :     2238
+	TEN                 :     2237
+	WAS                 :     2201
+	NYG                 :     2182
+	IND                 :     2179
+	HOU                 :     2166
+	PIT                 :     2136
+	OAK                 :     2134
+	ATL                 :     2124

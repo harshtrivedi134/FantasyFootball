@@ -1,0 +1,12 @@
+
+create external table Injury(position string, first_name string, last_name string, status string, injury1 string, injury2 string)
+row format delimited fields terminated by '\32' escaped by '\3' lines terminated by '\10' location'/user/cloudera/ANALYSIS';
+
+select * from Injury;
+alter table Injury drop injury1;
+alter table Injury drop injury2;
+select * from Injury;
+create external table newInjury as
+ select * from Injury
+ where status is not null;
+
